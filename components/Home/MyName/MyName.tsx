@@ -31,7 +31,7 @@ export default function MyName(props: { finishedLoading: boolean }) {
       >
         Anon Rahman.
       </motion.h1>
-      <motion.h2
+      {/* <motion.h2
         initial={{ y: 10, opacity: 0 }}
         animate={{ y: 0, opacity: 1 }}
         transition={{
@@ -40,8 +40,8 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-bold text-3xl lg:text-7xl sm:text-5xl md:text-6xl mt-4"
       >
-        I make ideas & things alive.
-      </motion.h2>
+        Student and Developer
+      </motion.h2> */}
 
       <motion.h3
         initial={{ y: 10, opacity: 0 }}
@@ -52,9 +52,9 @@ export default function MyName(props: { finishedLoading: boolean }) {
         }}
         className="text-gray-400 font-Header text-sm md:text-lg sm:text-md mt-10 tracking-wider"
       >
-        I&apos;m an aspiring <span className="text-AAsecondary">software engineer</span>, i possess strong problem-solving skills and
+        I&apos;m an aspiring <span className="text-AAsecondary">software engineer</span>, I possess strong problem-solving skills and
         specialize in crafting exceptional <br className="2xl:block hidden" />
-        digital experiences. My current area of focus is in the <span className="text-AAsecondary">software engineering</span> and 
+        digital experiences. My current area of focus is in <span className="text-AAsecondary">software engineering</span> and 
         <span className="text-AAsecondary"> machine learning</span>,
         where I actively engage in developing <br className="2xl:block hidden"/>
         and designing immersive applications.

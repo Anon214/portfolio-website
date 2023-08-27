@@ -64,9 +64,9 @@ export default function SomethingIveBuilt() {
             col-span-8 flex flex-col items-start md:items-end space-y-3"
             >
               <div className="flex flex-col space-y-1 md:items-end z-10">
-                <a href="https://ens.vision" target="_blank" rel="noopener noreferrer">
+                <a href="https://spotify-clone-seven-lilac.vercel.app/" target="_blank" rel="noopener noreferrer">
                   <span className=" md:text-gray-200 text-AAsecondary font-bold text-xl hover:cursor-pointer">
-                    Spotify Clone
+                    Full Stack Spotify Clone
                   </span>
                 </a>
               </div>
@@ -74,7 +74,7 @@ export default function SomethingIveBuilt() {
                 <p className="text-gray-300 md:text-gray-400 text-left md:text-right ">
                 I made a spotify clone, a web app for music streaming, playlist creation, and genre exploration. 
                 I used <span className="text-AAsecondary"> Next.js</span> and{" "} for static and dynamic pages, 
-                <span className="text-AAsecondary"> Tailwind CSS</span> for styling and customization, <span className="text-AAsecondary"> Supabase</span> 
+                <span className="text-AAsecondary"> Tailwind CSS</span> for styling and customization, <span className="text-AAsecondary"> Supabase </span> 
                 for authentication, storage, and database, and TypeScript for type checking and object-oriented programming. 
                 My spotify clone is modern, fast, and functional. I demonstrated my skills in web development and cloud services.
                 </p>
@@ -118,11 +118,6 @@ export default function SomethingIveBuilt() {
               <Img src={"/img/YPredict-v1.jpg"} alt={"Project Screen shot"} className={`w-full rounded h-full `} />
             </div>
           </div>
-
-
-
-
-
 
 
           <div className=" md:absolute py-4  md:grid md:grid-cols-12 w-full h-full  content-center ">
