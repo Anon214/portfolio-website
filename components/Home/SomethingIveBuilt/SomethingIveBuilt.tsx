@@ -89,6 +89,7 @@ export default function SomethingIveBuilt() {
                 <span className="pr-4 z-10">TypeScript</span>
               </ul>
               <div className="z-10 flex fle-row space-x-5 ">
+                <GithubIcon link="https://github.com/Anon214/spotify-clone" />
                 <a href="https://spotify-clone-seven-lilac.vercel.app/" target={"_blank"} rel="noreferrer">
                   <ExternalLink url={""} router={router} />
                 </a>
