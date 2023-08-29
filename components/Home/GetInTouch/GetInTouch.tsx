@@ -18,18 +18,29 @@ export default function GetInTouch() {
       {/* // ? Get In Touch */}
       <span className="text-gray-200 text-3xl sm:text-4xl font-bold tracking-wider opacity-85">Get In Touch</span>
       <p className="flex font-Header tracking-wider text-gray-400 text-center px-6 sm:px-16 md:px-0 md:w-[600px]">
-        I&apos;m always open for any new opportunities, my inbox is open. Whether you have a question or just
-        want to say hi, I&apos;ll try my best to get back to you! My email is arahma27@gmu.edu.
+      My inbox is open for all inquires, whether you have a question or just want to say hi. 
+      I will try to respond as soon as possible! The easiest way to reach me is my email: arahma27@gmu.edu.
       </p>
       <div className="pt-4">
+
         <a href="mailto:arahma27@gmu.edu" target={"_blank"} rel="noreferrer">
+          <button
+            className="font-mono text-sm text-AAsecondary border-AAsecondary 
+                            px-8 py-4 border-[1.5px] rounded"
+          >
+            Email
+          </button>
+        </a>
+
+        <a href="https://www.linkedin.com/in/anonrahman/" target={"_blank"} rel="noreferrer" className="ml-4">
           <button
             className="font-mono text-sm text-AAsecondary border-AAsecondary 
                             px-8 py-4 border-[1.5px] rounded "
           >
-            Say Hello
+            LinkedIn
           </button>
         </a>
+
       </div>
     </div>
   );

@@ -29,9 +29,8 @@ export default function AboutMe(props) {
           <div className="w-full md:w-7/12 space-y-4 sm:text-base text-sm ">
             <div className="font-Header ">
               <span className="text-gray-400 ">
-                Hello! My name is Anon, and I am an aspiring software engineer and problem solver, dedicated to
-                creating innovative and impactful code. My journey began in my high schools computer science class.
-                Every since then, I loved solving difficult problems and started refining my craft.
+              Hello! My name is Anon and I am an aspiring software engineer dedicated to creating innovative and impactful code. 
+              My journey began in my High School&apos;s Computer Science, where I found my love of solving difficult problems with code and have been refining my craft ever since.
               </span>
             </div>
             <div className="font-Header ">
